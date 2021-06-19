@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="/manifest.json">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","version":"8.5.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="遵循前辈的光荣，探寻已被掩埋于过去的明灯方得困惑之救赎。—— 题记  实际上，我是通过再次发问那些创立这门伟大学科的光辉人物曾经思考过的问题才建立起这条路线图来的。In all of these questions，每问出其中一个问题，都将使得你更加全面地观视到整个CS学科的理论架构；每尝试理解或回答其中一个问题，你都将比该领域的同行更具竞争力。科学源于思考，源于对答案的追寻，正是因为这些问题困惑">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的CS学习路线图">
+<meta property="og:url" content="http://example.com/2015/12/11/ICMP%20%E6%88%91%E7%9A%84CS%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/index.html">
+<meta property="og:site_name" content="NexT造创余社">
+<meta property="og:description" content="遵循前辈的光荣，探寻已被掩埋于过去的明灯方得困惑之救赎。—— 题记  实际上，我是通过再次发问那些创立这门伟大学科的光辉人物曾经思考过的问题才建立起这条路线图来的。In all of these questions，每问出其中一个问题，都将使得你更加全面地观视到整个CS学科的理论架构；每尝试理解或回答其中一个问题，你都将比该领域的同行更具竞争力。科学源于思考，源于对答案的追寻，正是因为这些问题困惑">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2015-12-10T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-06-19T13:44:49.553Z">
+<meta property="article:author" content="City of Scarlet">
+<meta property="article:tag" content="计算机">
+<meta property="article:tag" content="CS之源">
+<meta property="article:tag" content="CS之路">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2015/12/11/ICMP%20%E6%88%91%E7%9A%84CS%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2015/12/11/ICMP%20%E6%88%91%E7%9A%84CS%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/","path":"2015/12/11/ICMP 我的CS学习路线图/","title":"我的CS学习路线图"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>我的CS学习路线图 | NexT造创余社</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">NexT造创余社</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">City of Scarlet</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section">标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section">分类</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section">归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">City of Scarlet</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/fengshenyuan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;fengshenyuan" rel="noopener" target="_blank">GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.zhihu.com/people/xiuwen.io" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;xiuwen.io" rel="noopener" target="_blank">知乎</a>
+      </span>
+  </div>
+
+
+
+          </div>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/12/11/ICMP%20%E6%88%91%E7%9A%84CS%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="City of Scarlet">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NexT造创余社">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          我的CS学习路线图
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2015-12-11 00:00:00" itemprop="dateCreated datePublished" datetime="2015-12-11T00:00:00+08:00">2015-12-11</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-06-19 21:44:49" itemprop="dateModified" datetime="2021-06-19T21:44:49+08:00">2021-06-19</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ICMP/" itemprop="url" rel="index"><span itemprop="name">ICMP</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>遵循前辈的光荣，探寻已被掩埋于过去的明灯方得困惑之救赎。<br>—— 题记 </p>
+<p>实际上，我是通过再次发问那些创立这门伟大学科的光辉人物曾经思考过的问题才建立起这条路线图来的。In all of these questions，每问出其中一个问题，都将使得你更加全面地观视到整个CS学科的理论架构；每尝试理解或回答其中一个问题，你都将比该领域的同行更具竞争力。科学源于思考，源于对答案的追寻，正是因为这些问题困惑着人类，人类才发展出一门完整的学科来解答这些问题。So take care, I’m going to ask u a question now.</p>
+<p><em><strong>The Main Question: 催生Computer Science的问题链是怎样的？</strong></em><br>Ans:［Core 数学机械化 @计算理论］</p>
+<ul>
+<li><p><strong>#1</strong><br>Can the computation a*b automatically be done by a machine?<br>［数学计算是否可以机械化？@数理逻辑与数学基础 亚里士多德三段论，莱布尼兹的设想，希尔伯特公理系统，哥德尔的天才证明， Church–Turing Thesis］</p>
+</li>
+<li><p><strong>#2</strong><br>If a machine can do computation automatically, what’s the basic mathematical model for the machine auto computing?<br>［数学机械化的计算模型？@Formal Language &amp; Automata &amp; Universal Turing Machine &amp; Lambda calculus］</p>
+</li>
+<li><p><strong>#3</strong><br>How to describe a problem and organize the computing procedure?<br>［如何表述问题使之可以进行机械化计算？如何组织机械化计算过程？@算法与数据结构、程序设计方法学 OOP，Generic Programming，Functional Programming，Design Patterns …］<span id="more"></span></p>
+</li>
+<li><p><strong>#4</strong><br>Can a machine compute everything that can be expressed in its language?<br>［什么问题是可以被机械化计算的，什么问题是不可以使用机械化计算解决的？机械化计算的极限在何处？@可计算性与计算复杂度，NP完全问题］</p>
+</li>
+<li><p><strong>#5</strong><br>Can a machine think? can a machine do intelligence computing? what’s the relationship between the machine computing and human intelligence computing?<br>［机械能否实现智能计算？计算模型可以做公理的形式化推断与证明么？智能计算与机械化计算之间的关系，智能计算与一般化计算的构造差异，智能计算是如何形成和运转的？ @人工智能 Machine Learning，Natural Language Process，Recommender System…］</p>
+</li>
+<li><p><strong>#6</strong><br>Could a machine computing system evolve itself  to be more intelligence?could a machine computing system have a life as we human beings?could a machine computing system communicate with other system?<br>［机器能否自动进化并拥有自我意识，机器能否感知生命的价值与意义？@元胞自动机 cellular automata、机器人、意识形成、心智与精神……这里已近快要接近神域了吧］</p>
+</li>
+<li><p><strong>#7</strong><br>Back to reality, how to build a computing system in real world?<br>［如何构造一个实际可用的计算机器来实现这些计算模型？@冯诺依曼结构，哈佛结构，Quantum Computing，OS &amp; Compiler System］</p>
+</li>
+</ul>
+<p>Step by step, u’ll find that u are actually trying to rebuild the whole field of CS from the very ancient Aristotle Era by asking these questions.</p>
+<p><strong>Further reading associated with these questions:</strong></p>
+<ul>
+<li>1.<a target="_blank" rel="noopener" href="http://pan.baidu.com/share/link?shareid=2874751348&uk=3609507783">实数的构造理论. 王建午等编 人民教育出版社 1981.</a></li>
+<li>2.<a target="_blank" rel="noopener" href="http://book.douban.com/subject/3098369/">数理逻辑 <em>Mathematical Logic.</em> H.-D. Ebbinghaus / J. Flum / W. Thomas . 1996.</a></li>
+<li>3.<a target="_blank" rel="noopener" href="https://www.cs.auckland.ac.nz/~chaitin/lowell.html">Gregory Chaitin在马萨诸塞大学关于数学基础的演讲. <em>A Century of Controversy over the Foundations of Mathematics.</em> Originally published in C.S. Calude and G. Paun, <em>Finite versus Infinite</em>, Springer-Verlag, 2000, pp. 75-100.</a></li>
+<li>4.<a target="_blank" rel="noopener" href="http://blog.csdn.net/pongba/article/details/1336028">康托尔、哥德尔、图灵 — 永恒的金色对角线. 刘未鹏 2006.</a></li>
+<li>5.<a target="_blank" rel="noopener" href="http://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X/"><em>Introduction to the Theory of Computation</em> by Michael Sipser, Third Edition, Course Technology, 2012.</a></li>
+<li>6.<a target="_blank" rel="noopener" href="http://book.douban.com/subject/1148282/">计算机程序的构造和解释. SICP. <em>Structure and Interpretation of Computer Programs - 2nd Edition</em>. MIT.  Harold Abelson and Gerald Jay Sussman. 1996.豆瓣9.6分推荐.</a></li>
+<li>7.<a target="_blank" rel="noopener" href="http://blog.zhaojie.me/2010/04/trends-and-future-directions-in-programming-languages-by-anders-1-history-and-trends.html">编程语言的发展趋势及未来方向. <em>Trends and Future Directions in Programming Languages.</em> Anders Hejlsberg, Delphi和C#之父，.NET创立者，在比利时TechDays 2010所做的开场演讲.</a></li>
+<li>8.<a target="_blank" rel="noopener" href="http://book.douban.com/subject/1782316/">计算机编程的概念、技术和模型. <em>Concepts, Techniques, and Models of Computer Programming.</em> Peter Van Roy / Seif Haridi, 2004.豆瓣8.3分推荐. </a></li>
+<li>9.<a target="_blank" rel="noopener" href="http://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X/"><em>Computer Systems: A Programmer’s Perspective</em>,3rd Edition,  Randal E. Bryant , David R. O’Hallaron. 2015.豆瓣9.7分推荐.</a></li>
+<li>10.<a target="_blank" rel="noopener" href="http://book.douban.com/subject/1773585/">哥德尔、艾舍尔、巴赫：集异璧之大成.  <em>Godel,Escher,Bach:An Eternal Golden Braid.</em>  Douglas R. Hofstadter , 1999. 豆瓣9.6分推荐.</a></li>
+<li>11.<a target="_blank" rel="noopener" href="http://www.amazon.com/Machine-Learning-Tom-M-Mitchell/dp/0070428077/"><em>Machine Learning.</em> Tom M.Mitchell, 1997. 豆瓣8.6分推荐</a></li>
+<li>12.<a target="_blank" rel="noopener" href="http://vdisk.weibo.com/s/uu2R8eaP7t3v1"><em>Recommender Systems Handbook</em>. Paul B. Kantor / Francesco Ricci / Lior Rokach / Bracha Shapira . 2010.</a></li>
+<li>13.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science"><em>List of unsolved problems in computer science.</em> From Wikipedia, the free encyclopedia.</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" rel="tag"># 计算机</a>
+              <a href="/tags/CS%E4%B9%8B%E6%BA%90/" rel="tag"># CS之源</a>
+              <a href="/tags/CS%E4%B9%8B%E8%B7%AF/" rel="tag"># CS之路</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2011/01/26/%E8%AF%97%E6%96%87%20%E7%8E%84%E5%AD%97%E9%80%8D%E9%81%A5%E8%B5%8B/" rel="prev" title="玄字逍遥赋">
+                  <i class="fa fa-chevron-left"></i> 玄字逍遥赋
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2016/03/19/%E8%AF%97%E6%AD%8C%20%E5%B0%8F%E9%B1%BC/" rel="next" title="小鱼">
+                  小鱼 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">City of Scarlet</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
